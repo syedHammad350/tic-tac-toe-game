@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(32, 27, 27);
+}
+.mean_container {
+   margin-top: 100px;
+}
+
+.header{
+    background-color: rgb(7, 7, 39);
+    width: 100%;
+    height: 70px;
+}
+.username{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+   
+    
+   
+}
+.box:hover{
+    background-color: green;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+.btns button{
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 30px;
+}
+.disable{
+    pointer-events: none;
+  }
+.userx{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    padding-top: 25px;
+}
+.usero{
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    padding-top: 25px;
+}
+
+ .gameresult{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+ }

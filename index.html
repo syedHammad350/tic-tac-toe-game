@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="header">
+            <h1 style="color: white;text-align: center;padding-top: 10px;">tic tac toe</h1>
+        </div>
+        <div class="username">
+            <h1 id="user1">player one X</h1>
+            <h1 id="user2">player two O</h1>
+        </div>
+        
+         <div class="mean_container">
+            <div class="container">
+                <div id="box1" onclick="playgame(this)" class="box"></div>
+                <div id="box2" onclick="playgame(this)"class="box"></div>
+                <div id="box3"onclick="playgame(this)" class="box"></div>
+            </div>
+            <div class="container">
+                <div id="box4"onclick="playgame(this)" class="box"></div>
+                <div id="box5" onclick="playgame(this)"class="box"></div>
+                <div id="box6"onclick="playgame(this)" class="box"></div>
+            </div>
+            <div class="container">
+                <div id="box7"onclick="playgame(this)" class="box"></div>
+                <div id="box8"onclick="playgame(this)" class="box"></div>
+                <div id="box9"onclick="playgame(this)" class="box"></div>
+            </div>
+         </div>
+         <p id="resultpara"></p>
+         <div class="btns">
+            
+            <button onclick="res()">Restart</button>
+         </div>
+       
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
