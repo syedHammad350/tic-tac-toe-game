@@ -115,8 +115,9 @@ function playgame(ele){
     box9.classList.add('disable')
     }
 
-    if(counter==9){
+    if(counter==9 &&   result.innerHTML!=player_x+" "+ " X" + " ARE WIN" && result.innerHTML!=player_o+" "+ " O" + " ARE WIN"){
         result.innerHTML='GAME DRAW'
+       
     }
     
    
